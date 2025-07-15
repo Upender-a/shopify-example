@@ -54,8 +54,7 @@
                           {{- 'icon-caret.svg' | inline_asset_content -}}
                         </summary>
                         <div id="HeaderMenu-SubMenuList-{{ link.handle }}-{{ childlink.handle }}-{{ grandchildlink.handle }}"
-                          class="header__submenu list-menu motion-reduce"
-                        >
+                          class="header__submenu list-menu motion-reduce">
                           {%- for grandchildlink in childlink.links -%}
                             <li>
                               <a
