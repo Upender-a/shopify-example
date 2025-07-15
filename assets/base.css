@@ -2748,6 +2748,7 @@ details[open] > .header__submenu {
   animation: animateMenuOpen var(--duration-default) ease;
   animation-fill-mode: forwards;
   z-index: 1;
+  width:800px;
 }
 
 @media (prefers-reduced-motion) {
